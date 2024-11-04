@@ -37,20 +37,6 @@ function App() {
       githubUrl: "https://github.com/AnthonyY-dev/SmartDoorLock",
       liveUrl: "https://youtu.be/9Cadp6dBYJY?si=xNvX2fkupA30Qmvc",
     },
-    // {
-    //   title: "Design Portfolio System",
-    //   description:
-    //     "A dynamic portfolio platform for designers with real-time updates and image optimization.",
-    //   technologies: [
-    //     "React",
-    //     "Firebase Storage",
-    //     "Framer Motion",
-    //     "Tailwind CSS",
-    //   ],
-    //   imageUrl:
-    //     "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=2000",
-    //   githubUrl: "#",
-    // },
   ];
 
   return (
@@ -127,7 +113,11 @@ function App() {
           <h2 className="text-3xl font-bold mb-12 text-center">
             Featured <span className="text-amber-500">Projects</span>
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div
+            className={`grid grid-cols-1 ${
+              projects.length > 1 ? "md:grid-cols-2" : "md:w-2/3 lg:w-1/2"
+            } gap-8 mx-auto`}
+          >
             {projects.map((project, index) => (
               <ProjectCard key={index} {...project} />
             ))}
