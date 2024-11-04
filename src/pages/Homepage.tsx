@@ -179,20 +179,20 @@ function HomePage() {
 
                 <div className="space-y-4">
                   <a
-                    href="mailto:contact@example.com"
+                    href="mailto:admin@anthonyy.me"
                     className="flex items-center space-x-3 text-gray-300 hover:text-amber-500 transition-colors"
                   >
                     <Mail className="w-5 h-5" />
-                    <span>contact@example.com</span>
+                    <span>admin@anthonyy.me</span>
                   </a>
                   <a
-                    href="https://github.com"
+                    href="https://github.com/AnthonyY-dev"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 text-gray-300 hover:text-amber-500 transition-colors"
                   >
                     <Github className="w-5 h-5" />
-                    <span>github.com/anthony</span>
+                    <span>github.com/AnthonyY-dev</span>
                   </a>
                 </div>
               </div>
