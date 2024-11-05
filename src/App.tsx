@@ -2,9 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
-import HomePage from "./pages/Homepage";
+import HomePage from "./pages/HomePage";
 import AdminLogin from "./components/AdminLogin";
 import AdminDashboard from "./components/AdminDashboard";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               </ProtectedRoute>
             }
           />
+          <Route path="/404" element={<NotFoundPage />} />
         </Routes>
       </AuthProvider>
     </Router>
