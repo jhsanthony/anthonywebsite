@@ -6,9 +6,10 @@ import {
   Code,
   Mail,
   Github,
-  Linkedin,
   Send,
   Cpu,
+  Gamepad2,
+  Image,
 } from "lucide-react";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../lib/firebase";
@@ -19,14 +20,14 @@ import PulsingGradient from "../components/PulsingGradient";
 function HomePage() {
   const skills = [
     {
-      icon: <Layout className="w-6 h-6" />,
-      name: "Web Design",
-      description: "Creating beautiful, responsive interfaces",
+      icon: <Image className="w-6 h-6" />,
+      name: "Graphics",
+      description: "Creating beautiful, modern icons & images",
     },
     {
-      icon: <Flame className="w-6 h-6" />,
-      name: "Firebase",
-      description: "Real-time databases & authentication",
+      icon: <Gamepad2 className="w-6 h-6" />,
+      name: "Roblox",
+      description: "Game development & programming.",
     },
     {
       icon: <Cpu className="w-6 h-6" />,
@@ -96,7 +97,7 @@ function HomePage() {
               <span className="text-amber-500">.</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 mb-8">
-              Web Designer & Firebase Expert
+              Game development & Web design expert
             </p>
             <div className="flex gap-4">
               <a
