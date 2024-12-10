@@ -6,7 +6,7 @@ import HomePage from "./pages/Homepage";
 import AdminLogin from "./components/AdminLogin";
 import AdminDashboard from "./components/AdminDashboard";
 import NotFoundPage from "./pages/NotFoundPage";
-
+import ChristmasPage from "./pages/ChristmasPage";
 function App() {
   return (
     <Router>
@@ -23,6 +23,7 @@ function App() {
             }
           />
           <Route path="/404" element={<NotFoundPage />} />
+          <Route path="/christmas" element={<ChristmasPage />} />
         </Routes>
       </AuthProvider>
     </Router>
