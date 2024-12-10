@@ -57,7 +57,7 @@ const ChristmasPage = () => {
     {
       icon: <Apple className="w-6 h-6"></Apple>,
       label: "⭐ Apple Watch ⭐",
-      url: "https://www.amazon.com/Apple-Smartwatch-Midnight-Aluminium-Detection/dp/B0DGJ736JM/ref=sr_1_3?crid=3JWYULCLHFJJF&dib=eyJ2IjoiMSJ9.1cTuCkIwNQO-1bA68s81THSQO199HJyRc1KTfnHzwj02JOXA9Q9AodJsgDmG3NjUTo6tf3ck6jYCFD6wZmYijCQzl7ruZSXm6_IsSYhWe-7SGLHkvGvbKHNUAvs43MdxsTGt2uMASZGzaoRelY7BzwnFlWapI3LG38kb8cJr45ckA7RwNlUCrYTiYhQmBbrKpEkeA8Dw1L073nhT5nYzC-iR51gXwJhmMBYnQJJ5Kdo.IMG8JM7HIPXQav4EDkuJUcMm2FNLdFQ9R8tlmlCX3SA&dib_tag=se&keywords=apple+watch&qid=1733804608&sprefix=apple+watch%2Caps%2C126&sr=8-3",
+      url: "https://www.plug.tech/products/apple-watch-series-9-45mm-midnight-gps",
       color: "from-red-500 to-red-400",
     },
     {
