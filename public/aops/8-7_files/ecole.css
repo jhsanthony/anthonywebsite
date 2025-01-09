@@ -1,0 +1,199 @@
+.ecole-fg-red {
+	color: #e2002b !important;
+}
+.ecole-fg-blue {
+	color: #1496d8 !important;
+}
+.ecole-fg-light-green {
+	/*light green is actually aops main blue #1b365d;*/
+	color: #1b365d !important;
+}
+.ecole-fg-green {
+	color: #3da000 !important;
+}
+.ecole-fg-orange {
+	color: #ef7f00 !important;
+}
+.ecole-fg-default {
+	color: #7c7b71 !important;
+}
+.ecole-fg-yellow {
+	color: #fff2cc !important;
+}
+.ecole-fg-black {
+	color: #000000 !important;
+}
+
+.ecole-bg-red {
+	background: #e2002b !important;
+}
+.ecole-bg-blue {
+	background: #1496d8 !important;
+}
+.ecole-bg-light-green {
+	/*light green is actually aops main blue #1b365d;*/
+	background: #1b365d;
+}
+.ecole-bg-green {
+	background: #3da000 !important;
+}
+.ecole-bg-orange {
+	background: #ef7f00 !important;
+}
+.ecole-bg-default {
+	background: #7c7b71 !important;
+}
+.ecole-bg-yellow {
+	background: #fff2cc !important;
+}
+.ecole-bg-black {
+	background: #000000 !important;
+}
+
+.ecole-json-container {
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.ecole-json-container .ecole-clickable:hover {
+	/*background-color: rgba(109, 177, 1, 0.15);*/
+	background-color: rgba(27, 54, 93, 0.15);
+}
+
+.ecole-json-container.edited {
+	border: 3px dashed orange;
+}
+
+.ecole-json-controls .btn {
+	margin: 5px;
+}
+
+.ecole-json-controls .btn.cancel {
+	float: right;
+}
+
+.ecole-json-outer {
+	display: table;
+	border-spacing: 0;
+}
+
+.ecole-json-row {
+	display: table-row;
+}
+
+.ecole-json-key {
+	text-align: right;
+	padding: 0 5px;
+	font-weight: bold;
+	display: table-cell;
+	color: #555;
+}
+
+.ecole-json-value {
+	display: table-cell;
+}
+
+.ecole-json-highlight {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.ecole-json-to-add {
+	background: rgba(0, 255, 0, 0.25);
+}
+
+.ecole-json-to-rid {
+	background: rgba(255, 0, 0, 0.25);
+}
+
+.ecole-json-rid {
+	color: red;
+	display: table-cell;
+	padding-left: 5px;
+}
+
+.ecole-json-insert,
+.ecole-json-append {
+	color: green;
+	padding: 0 5px;
+	display: table-cell;
+}
+
+.ecole-json-insert span,
+.ecole-json-rid span,
+.ecole-json-append span {
+	padding: 0 5px;
+}
+
+.ecole-json-move {
+	text-align: right;
+	padding: 0 5px;
+	font-style: italic;
+	color: darkblue;
+}
+
+.ecole-json-type {
+	text-align: right;
+	padding: 0 5px;
+	font-style: italic;
+	color: blue;
+}
+
+.ecole-json-append {
+	vertical-align: bottom;
+}
+
+.ecole-json-after {
+	padding: 0 5px;
+	display: table-cell;
+	vertical-align: bottom;
+	color: blue;
+}
+
+.ecole-json-primitive {
+	padding: 0 5px;
+}
+
+.ecole-json-key:hover,
+.ecole-json-type:hover {
+	background: rgba(255, 255, 0, 0.25);
+}
+
+.ecole-json-radio label {
+	padding: 0 15px 0 0;
+}
+
+.ecole-json-radio label input {
+	margin: 0 5px 0 0;
+}
+
+.ecole-mouseover-anchor {
+	cursor: default;
+}
+
+.ecole-mouseover-anchor:hover {
+	/* background-color: rgba(255, 255, 0, 0.25) !important; */
+}
+
+.ecole-mouseover-wrapper {
+	display: none;
+	position: absolute;
+	border: 1px solid #bbb;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	z-index: 10000;
+	background: #fff;
+	padding: 4px 8px;
+	color: black;
+}
+
+.ecole-clickable {
+	cursor: pointer !important;
+	cursor: hand !important;
+}
+
+.ecole-clickable:hover {
+	/*background-color: rgba(109, 177, 1, 0.15) !important;*/
+	background-color: rgba(27, 54, 93, 0.15) !important;
+}
+
+.ecole-hoverable:hover {
+	background-color: rgba(27, 54, 93, 0.15) !important;
+}
