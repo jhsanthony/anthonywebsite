@@ -48,7 +48,6 @@ function HomePage() {
       technologies: ["LiquidCrystal", "Keypad", "Arduino"],
       imageUrl: "doorlock.png",
       githubUrl: "https://github.com/AnthonyY-dev/SmartDoorLock",
-      liveUrl: "https://youtu.be/9Cadp6dBYJY?si=xNvX2fkupA30Qmvc",
     },
   ];
 
@@ -94,7 +93,6 @@ function HomePage() {
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-4">
               <span className="text-white">Anthony</span>
-              <span className="text-amber-500">.</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 mb-8">
               Game development & Web design expert
