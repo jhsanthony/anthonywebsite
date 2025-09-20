@@ -95,7 +95,7 @@ function HomePage() {
               <span className="text-white">Anthony</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 mb-8">
-              Game development & Web design expert
+              code(); study(); playMibnecraft(); sleep();
             </p>
             <div className="flex gap-4">
               <a
@@ -140,7 +140,7 @@ function HomePage() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 relative">
+      {/* <section id="projects" className="py-20 relative">
         <div className="container mx-auto px-6 relative z-10">
           <h2 className="text-3xl font-bold mb-12 text-center">
             Featured <span className="text-amber-500">Projects</span>
@@ -155,7 +155,7 @@ function HomePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section id="contact" className="py-20 relative">
