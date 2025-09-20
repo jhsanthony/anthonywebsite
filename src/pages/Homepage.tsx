@@ -94,9 +94,7 @@ function HomePage() {
             <h1 className="text-5xl md:text-7xl font-bold mb-4">
               <span className="text-white">Anthony</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-400 mb-8">
-              code(); study(); playMibnecraft(); sleep();
-            </p>
+            <p className="text-xl md:text-2xl text-gray-400 mb-8"></p>
             <div className="flex gap-4">
               <a
                 href="#contact"
