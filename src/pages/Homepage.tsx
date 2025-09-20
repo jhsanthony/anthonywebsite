@@ -185,13 +185,13 @@ function HomePage() {
                     <span>admin@anthonyy.me</span>
                   </a>
                   <a
-                    href="https://github.com/AnthonyY-dev"
+                    href="https://github.com/jhsanthony"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 text-gray-300 hover:text-amber-500 transition-colors"
                   >
                     <Github className="w-5 h-5" />
-                    <span>github.com/AnthonyY-dev</span>
+                    <span>github.com/jhsanthony</span>
                   </a>
                 </div>
               </div>
